@@ -1,0 +1,43 @@
+.donut_container {
+  display: flex;
+  justify-content: start;
+  /* align-items: center; */
+  margin-top: 2rem;
+  background: #ffffff;
+  gap: 2rem;
+}
+
+.top_location {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #eff1f6;
+  border-radius: 12px;
+  text-align: left;
+  width: 50%;
+  border:1px solid red;
+
+}
+
+.top_location_spans {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_location .donut_location {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1rem .5rem;
+  /* justify-content: space-evenly; */
+  gap: 1rem;
+  text-align: left;
+}
+
+.donut_location_color {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+}

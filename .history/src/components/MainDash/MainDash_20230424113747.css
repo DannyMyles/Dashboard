@@ -1,0 +1,28 @@
+.MainDash{
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.MainDash h1{
+font-family: 'Söhne';
+font-size: 20px;
+line-height: 24px;
+padding-top: 0;
+margin-top: -10rem;
+border: 1px solid red;
+color: #131316;
+}
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+    }
+}

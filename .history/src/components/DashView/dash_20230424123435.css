@@ -1,0 +1,14 @@
+.main_usersview{
+    margin-top: 1rem;
+
+}
+.view_span{
+    color:#FF5403;
+}
+.users_intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}

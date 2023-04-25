@@ -1,0 +1,50 @@
+.main_usersview_span span{
+font-size: 24px;
+letter-spacing: -0.015em;
+color: #131316;
+font-weight: 600;
+}
+.view_span {
+  color: #ff5403;
+}
+.users_intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 1rem; */
+  /* margin-bottom: -10rem; */
+  border: 1px solid #ff0101;
+
+}
+
+.days-container {
+  display: flex;
+  font-size: 14px;
+  margin-top: -5rem;
+}
+
+.days-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #666;
+  padding: .5rem 1.7rem;
+  border-radius: 2rem;
+}
+
+.days-container > div:last-child {
+  margin-right: 0;
+}
+
+.all-time {
+  background-color: #ffddcd;
+  outline: .15rem solid #FF5403;
+}
+
+.other-time:hover {
+  border: 1px solid #b6b6b6;
+  cursor: pointer;
+}

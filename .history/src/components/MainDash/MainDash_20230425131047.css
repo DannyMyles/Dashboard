@@ -1,0 +1,23 @@
+.main_dash {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  border:1px solid red;
+  padding: 1.5rem 1rem;
+}
+.main_dash h1 {
+  font-size: 20px;
+  color: #131316;
+}
+@media screen and (max-width: 1200px) {
+  .main_dash {
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main_dash {
+    align-items: center;
+  }
+}

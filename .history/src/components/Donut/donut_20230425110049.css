@@ -1,0 +1,26 @@
+.donut_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  background: #ffffff;
+  
+}
+.top_location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #eff1f6;
+  border-radius: 12px;
+}
+.top_location .donut_location {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: auto;
+  border: 1px solid red;
+  padding: 0.5rem;
+  justify-content: space-evenly;
+  gap: 1rem;
+}

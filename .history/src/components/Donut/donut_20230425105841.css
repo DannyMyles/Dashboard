@@ -1,0 +1,23 @@
+.donut_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 1rem;
+    
+}
+.top_location .donut_location{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: start;
+    border: 1px solid red;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+    gap: 1rem;
+}

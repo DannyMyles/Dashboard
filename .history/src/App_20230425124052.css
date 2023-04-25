@@ -1,0 +1,30 @@
+.App {
+  padding: 0.5rem 3.5rem;
+  /* width: 100vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Söhne";
+  background-color: rgb(255, 255, 255);
+}
+
+.AppGlass {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 2rem;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .AppGlass{
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .AppGlass{
+    grid-template-columns: 1fr;
+  } 
+}

@@ -1,0 +1,47 @@
+.main_usersview {
+  /* margin-top: 1.7rem; */
+  font-size: 1rem;
+}
+.view_span {
+  color: #ff5403;
+}
+.users_intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.days-container {
+  display: flex;
+  margin-top: 0.1rem;
+  font-size: 14px;
+}
+
+.days-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #666;
+  padding: .5rem 1.7rem;
+  border-radius: 2rem;
+}
+
+.days-container > div:last-child {
+  margin-right: 0;
+}
+
+.all-time {
+  background-color: #ffddcd;
+  border: 2px solid #ff5403;
+  outline: 2px solid #ff5403;
+}
+
+.other-time:hover {
+  border: 1px solid #b6b6b6;
+  cursor: pointer;
+}
